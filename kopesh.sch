@@ -840,21 +840,21 @@ Wire Wire Line
 Text GLabel 9800 850  1    50   Input ~ 0
 COL3
 Text GLabel 2500 1600 2    50   Input ~ 0
-COL0
-Text GLabel 2500 1700 2    50   Input ~ 0
-COL1
-Text GLabel 2500 1800 2    50   Input ~ 0
-COL2
-Text GLabel 2500 1900 2    50   Input ~ 0
-COL3
-Text GLabel 2500 2000 2    50   Input ~ 0
-COL4
-Text GLabel 2500 2100 2    50   Input ~ 0
-COL5
-Text GLabel 2500 2200 2    50   Input ~ 0
-COL6
-Text GLabel 2500 2300 2    50   Input ~ 0
 COL7
+Text GLabel 2500 1700 2    50   Input ~ 0
+COL6
+Text GLabel 2500 1800 2    50   Input ~ 0
+COL5
+Text GLabel 2500 1900 2    50   Input ~ 0
+COL4
+Text GLabel 2500 2000 2    50   Input ~ 0
+COL3
+Text GLabel 2500 2100 2    50   Input ~ 0
+COL2
+Text GLabel 2500 2200 2    50   Input ~ 0
+COL1
+Text GLabel 2500 2300 2    50   Input ~ 0
+COL0
 Text GLabel 1100 1800 0    50   Input ~ 0
 ROW0
 Text GLabel 1100 1900 0    50   Input ~ 0
