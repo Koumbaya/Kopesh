@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 311)
+    (drawings 314)
     (tracks 927)
     (zones 0)
     (modules 102)
@@ -3977,6 +3977,9 @@
       (net 4 LED))
   )
 
+  (gr_line (start 28.575 -101.346) (end 28.194 -103.8225) (layer F.SilkS) (width 0.12) (tstamp 5E7E1D16))
+  (gr_line (start 23.495 -102.0445) (end 28.575 -101.346) (layer F.SilkS) (width 0.12))
+  (gr_line (start 28.194 -103.8225) (end 23.495 -102.0445) (layer F.SilkS) (width 0.12))
   (gr_line (start 285.459429 -118.11429) (end 285.465457 -174.276404) (layer Edge.Cuts) (width 0.05) (tstamp 5E786CD6))
   (gr_line (start 228.872809 -118.120182) (end 285.459429 -118.11429) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 108.891526 -85.885241) (end 228.872809 -118.120182) (layer Edge.Cuts) (width 0.05))
