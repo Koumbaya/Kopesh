@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L promicro:ProMicro U1
-U 1 1 5E77D4E0
-P 1800 1950
-F 0 "U1" H 1800 2987 60  0000 C CNN
-F 1 "ProMicro" H 1800 2881 60  0000 C CNN
-F 2 "promicro:ProMicro" H 1900 900 60  0001 C CNN
-F 3 "" H 1900 900 60  0000 C CNN
-	1    1800 1950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2500 1500 2650 1500
 $Comp
@@ -39,28 +28,6 @@ F 3 "" H 2650 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 1300 2550 1300
-$Comp
-L Switch:SW_Push sw1
-U 1 1 5E780C1B
-P 2800 1400
-F 0 "sw1" H 2800 1685 50  0000 C CNN
-F 1 "Reset" H 2800 1594 50  0000 C CNN
-F 2 "random-keyboard-parts:Reset_Pretty" H 2800 1600 50  0001 C CNN
-F 3 "~" H 2800 1600 50  0001 C CNN
-	1    2800 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 1300 2650 1250
-Wire Wire Line
-	2500 1400 2600 1400
-Wire Wire Line
-	3000 1400 3000 1250
-Wire Wire Line
-	3000 1250 2650 1250
-Connection ~ 2650 1250
-Wire Wire Line
-	2650 1250 2650 950 
 Text GLabel 4750 900  1    50   Input ~ 0
 COL0
 Connection ~ 4150 1250
@@ -1034,15 +1001,15 @@ Connection ~ 1250 3150
 Wire Wire Line
 	1250 3150 1700 3150
 $Comp
-L Connector:Conn_01x04_Male J1
+L Connector_Generic:Conn_01x04 J1
 U 1 1 5E91DFB9
-P 2350 2950
-F 0 "J1" H 2458 3231 50  0000 C CNN
-F 1 "OLED" H 2458 3140 50  0000 C CNN
-F 2 "" H 2350 2950 50  0001 C CNN
-F 3 "~" H 2350 2950 50  0001 C CNN
-	1    2350 2950
-	1    0    0    -1  
+P 2350 3050
+F 0 "J1" H 2458 3331 50  0000 C CNN
+F 1 "OLED" H 2458 3240 50  0000 C CNN
+F 2 "Connectors:Fan_Pin_Header_Straight_1x04" H 2350 3050 50  0001 C CNN
+F 3 "~" H 2350 3050 50  0001 C CNN
+	1    2350 3050
+	-1   0    0    1   
 $EndComp
 Text GLabel 2550 2950 2    50   Input ~ 0
 VCC
@@ -1875,4 +1842,60 @@ Wire Wire Line
 	2550 1300 2650 1300
 Text GLabel 2550 1050 1    50   Input ~ 0
 GND
+NoConn ~ 1100 1300
+NoConn ~ 2500 1200
+NoConn ~ 2750 7250
+$Comp
+L promicro:ProMicro U1
+U 1 1 5E77D4E0
+P 1800 1950
+F 0 "U1" H 1800 2987 60  0000 C CNN
+F 1 "ProMicro" H 1800 2881 60  0000 C CNN
+F 2 "promicro:ProMicro" H 1900 900 60  0001 C CNN
+F 3 "" H 1900 900 60  0000 C CNN
+	1    1800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E7DA069
+P 1100 1400
+F 0 "#PWR0101" H 1100 1150 50  0001 C CNN
+F 1 "GND" V 1105 1272 50  0000 R CNN
+F 2 "" H 1100 1400 50  0001 C CNN
+F 3 "" H 1100 1400 50  0001 C CNN
+	1    1100 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E7DAF0B
+P 1100 1500
+F 0 "#PWR0103" H 1100 1250 50  0001 C CNN
+F 1 "GND" V 1105 1372 50  0000 R CNN
+F 2 "" H 1100 1500 50  0001 C CNN
+F 3 "" H 1100 1500 50  0001 C CNN
+	1    1100 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper sw1
+U 1 1 5E780C1B
+P 2800 1400
+F 0 "sw1" H 2800 1685 50  0000 C CNN
+F 1 "Reset" H 2800 1594 50  0000 C CNN
+F 2 "random-keyboard-parts:Jumper-UserFriendly" H 2800 1600 50  0000 C CNN
+F 3 "~" H 2800 1600 50  0001 C CNN
+	1    2800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 950  2650 1300
+Wire Wire Line
+	3100 1300 3100 1400
+Wire Wire Line
+	2550 1300 2650 1300
+Connection ~ 2650 1300
+Wire Wire Line
+	2650 1300 3100 1300
 $EndSCHEMATC
