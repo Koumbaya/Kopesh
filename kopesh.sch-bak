@@ -28,17 +28,6 @@ F 3 "" H 2650 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 1300 2550 1300
-Wire Wire Line
-	2650 1300 2650 1250
-Wire Wire Line
-	2500 1400 2600 1400
-Wire Wire Line
-	3000 1400 3000 1250
-Wire Wire Line
-	3000 1250 2650 1250
-Connection ~ 2650 1250
-Wire Wire Line
-	2650 1250 2650 950 
 Text GLabel 4750 900  1    50   Input ~ 0
 COL0
 Connection ~ 4150 1250
@@ -1900,4 +1889,13 @@ F 3 "~" H 2800 1600 50  0001 C CNN
 	1    2800 1400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2650 950  2650 1300
+Wire Wire Line
+	3100 1300 3100 1400
+Wire Wire Line
+	2550 1300 2650 1300
+Connection ~ 2650 1300
+Wire Wire Line
+	2650 1300 3100 1300
 $EndSCHEMATC
