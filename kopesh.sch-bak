@@ -830,177 +830,6 @@ SCK
 Text GLabel 1100 1600 0    50   Input ~ 0
 SDA
 $Comp
-L LED:SK6812MINI D2
-U 1 1 5E7F2207
-P 1250 4300
-F 0 "D2" H 1594 4346 50  0000 L CNN
-F 1 "SK6812MINI" H 1594 4255 50  0000 L CNN
-F 2 "random-keyboard-parts:RGB-6028" H 1300 4000 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 3925 50  0001 L TNN
-	1    1250 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI D3
-U 1 1 5E7F3551
-P 1250 5050
-F 0 "D3" H 1594 5096 50  0000 L CNN
-F 1 "SK6812MINI" H 1594 5005 50  0000 L CNN
-F 2 "random-keyboard-parts:RGB-6028" H 1300 4750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 4675 50  0001 L TNN
-	1    1250 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI D4
-U 1 1 5E7F4CDD
-P 1250 5750
-F 0 "D4" H 1594 5796 50  0000 L CNN
-F 1 "SK6812MINI" H 1594 5705 50  0000 L CNN
-F 2 "random-keyboard-parts:RGB-6028" H 1300 5450 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 5375 50  0001 L TNN
-	1    1250 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI D5
-U 1 1 5E7F532B
-P 1250 6500
-F 0 "D5" H 1594 6546 50  0000 L CNN
-F 1 "SK6812MINI" H 1594 6455 50  0000 L CNN
-F 2 "random-keyboard-parts:RGB-6028" H 1300 6200 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 6125 50  0001 L TNN
-	1    1250 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI D6
-U 1 1 5E7F57E2
-P 1250 7250
-F 0 "D6" H 1594 7296 50  0000 L CNN
-F 1 "SK6812MINI" H 1594 7205 50  0000 L CNN
-F 2 "random-keyboard-parts:RGB-6028" H 1300 6950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 6875 50  0001 L TNN
-	1    1250 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI D7
-U 1 1 5E7F5D45
-P 2450 7250
-F 0 "D7" H 2794 7296 50  0000 L CNN
-F 1 "SK6812MINI" H 2794 7205 50  0000 L CNN
-F 2 "random-keyboard-parts:RGB-6028" H 2500 6950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2550 6875 50  0001 L TNN
-	1    2450 7250
-	1    0    0    -1  
-$EndComp
-Text GLabel 950  3550 0    50   Input ~ 0
-LED
-Wire Wire Line
-	1550 3550 1550 3950
-Wire Wire Line
-	1550 3950 950  3950
-Wire Wire Line
-	950  3950 950  4300
-Wire Wire Line
-	1550 4300 1550 4700
-Wire Wire Line
-	1550 4700 950  4700
-Wire Wire Line
-	950  4700 950  5050
-Wire Wire Line
-	1550 5050 1550 5400
-Wire Wire Line
-	1550 5400 950  5400
-Wire Wire Line
-	950  5400 950  5750
-Wire Wire Line
-	1550 5750 1550 6150
-Wire Wire Line
-	1550 6150 950  6150
-Wire Wire Line
-	950  6150 950  6500
-Wire Wire Line
-	1550 6500 1550 6900
-Wire Wire Line
-	1550 6900 950  6900
-Wire Wire Line
-	950  6900 950  7250
-Wire Wire Line
-	1550 7250 2150 7250
-Wire Wire Line
-	1250 3850 750  3850
-Wire Wire Line
-	750  3850 750  4600
-Wire Wire Line
-	750  7600 1250 7600
-Wire Wire Line
-	2450 7600 2450 7550
-Wire Wire Line
-	2450 7600 2450 7700
-Connection ~ 2450 7600
-Text GLabel 2450 7700 3    50   Input ~ 0
-GND
-Wire Wire Line
-	1250 4600 750  4600
-Connection ~ 750  4600
-Wire Wire Line
-	750  4600 750  5350
-Wire Wire Line
-	1250 5350 750  5350
-Connection ~ 750  5350
-Wire Wire Line
-	750  5350 750  6050
-Wire Wire Line
-	1250 6050 750  6050
-Connection ~ 750  6050
-Wire Wire Line
-	750  6050 750  6800
-Wire Wire Line
-	1250 6800 750  6800
-Connection ~ 750  6800
-Wire Wire Line
-	750  6800 750  7600
-Wire Wire Line
-	1250 7550 1250 7600
-Connection ~ 1250 7600
-Wire Wire Line
-	1250 7600 2450 7600
-Wire Wire Line
-	1100 3150 1250 3150
-Wire Wire Line
-	1700 6800 2450 6800
-Wire Wire Line
-	2450 6800 2450 6950
-Wire Wire Line
-	1250 6950 1700 6950
-Wire Wire Line
-	1700 6950 1700 6800
-Connection ~ 1700 6800
-Wire Wire Line
-	1250 6200 1700 6200
-Connection ~ 1700 6200
-Wire Wire Line
-	1700 6200 1700 6800
-Wire Wire Line
-	1250 5450 1700 5450
-Wire Wire Line
-	1700 3150 1700 4000
-Connection ~ 1700 5450
-Wire Wire Line
-	1700 5450 1700 6200
-Wire Wire Line
-	1250 4750 1700 4750
-Connection ~ 1700 4750
-Wire Wire Line
-	1700 4750 1700 5450
-Wire Wire Line
-	1250 3250 1250 3150
-Connection ~ 1250 3150
-Wire Wire Line
-	1250 3150 1700 3150
-$Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5E91DFB9
 P 2350 3050
@@ -1815,24 +1644,6 @@ Wire Wire Line
 Connection ~ 4250 4150
 Text GLabel 4850 3800 1    50   Input ~ 0
 COL4
-$Comp
-L LED:SK6812MINI D1
-U 1 1 5E7F1FAA
-P 1250 3550
-F 0 "D1" H 1594 3596 50  0000 L CNN
-F 1 "SK6812MINI" H 1594 3505 50  0000 L CNN
-F 2 "random-keyboard-parts:RGB-6028" H 1300 3250 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1350 3175 50  0001 L TNN
-	1    1250 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 4000 1700 4000
-Connection ~ 1700 4000
-Wire Wire Line
-	1700 4000 1700 4750
-Text GLabel 1100 3150 0    50   Input ~ 0
-VCC
 Text GLabel 2650 1500 2    50   Input ~ 0
 VCC
 Wire Wire Line
@@ -1844,7 +1655,6 @@ Text GLabel 2550 1050 1    50   Input ~ 0
 GND
 NoConn ~ 1100 1300
 NoConn ~ 2500 1200
-NoConn ~ 2750 7250
 $Comp
 L promicro:ProMicro U1
 U 1 1 5E77D4E0
@@ -1884,7 +1694,7 @@ U 1 1 5E780C1B
 P 2800 1400
 F 0 "sw1" H 2800 1685 50  0000 C CNN
 F 1 "Reset" H 2800 1594 50  0000 C CNN
-F 2 "random-keyboard-parts:Jumper-UserFriendly" H 2800 1600 50  0000 C CNN
+F 2 "footprints:ResetSW" H 2800 1600 50  0000 C CNN
 F 3 "~" H 2800 1600 50  0001 C CNN
 	1    2800 1400
 	1    0    0    -1  
@@ -1896,4 +1706,153 @@ Wire Wire Line
 Connection ~ 2650 1300
 Wire Wire Line
 	2650 1300 3100 1300
+$Comp
+L SK6812MINI-E:SK6812MINI-E LED?
+U 1 1 5EA06D5E
+P 1100 4000
+F 0 "LED?" H 1444 4046 50  0000 L CNN
+F 1 "SK6812MINI-E" H 1444 3955 50  0000 L CNN
+F 2 "" H 1450 3800 50  0001 C CNN
+F 3 "" H 1450 3800 50  0001 C CNN
+	1    1100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SK6812MINI-E:SK6812MINI-E LED?
+U 1 1 5EA207D8
+P 1100 4600
+F 0 "LED?" H 1444 4646 50  0000 L CNN
+F 1 "SK6812MINI-E" H 1444 4555 50  0000 L CNN
+F 2 "" H 1450 4400 50  0001 C CNN
+F 3 "" H 1450 4400 50  0001 C CNN
+	1    1100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SK6812MINI-E:SK6812MINI-E LED?
+U 1 1 5EA2C5D9
+P 1100 5200
+F 0 "LED?" H 1444 5246 50  0000 L CNN
+F 1 "SK6812MINI-E" H 1444 5155 50  0000 L CNN
+F 2 "" H 1450 5000 50  0001 C CNN
+F 3 "" H 1450 5000 50  0001 C CNN
+	1    1100 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SK6812MINI-E:SK6812MINI-E LED?
+U 1 1 5EA385FC
+P 1100 5800
+F 0 "LED?" H 1444 5846 50  0000 L CNN
+F 1 "SK6812MINI-E" H 1444 5755 50  0000 L CNN
+F 2 "" H 1450 5600 50  0001 C CNN
+F 3 "" H 1450 5600 50  0001 C CNN
+	1    1100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SK6812MINI-E:SK6812MINI-E LED?
+U 1 1 5EA44459
+P 1100 6400
+F 0 "LED?" H 1444 6446 50  0000 L CNN
+F 1 "SK6812MINI-E" H 1444 6355 50  0000 L CNN
+F 2 "" H 1450 6200 50  0001 C CNN
+F 3 "" H 1450 6200 50  0001 C CNN
+	1    1100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SK6812MINI-E:SK6812MINI-E LED?
+U 1 1 5EA501CB
+P 1100 7000
+F 0 "LED?" H 1444 7046 50  0000 L CNN
+F 1 "SK6812MINI-E" H 1444 6955 50  0000 L CNN
+F 2 "" H 1450 6800 50  0001 C CNN
+F 3 "" H 1450 6800 50  0001 C CNN
+	1    1100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SK6812MINI-E:SK6812MINI-E LED?
+U 1 1 5EA5C3FA
+P 2450 7200
+F 0 "LED?" H 2794 7246 50  0000 L CNN
+F 1 "SK6812MINI-E" H 2794 7155 50  0000 L CNN
+F 2 "" H 2800 7000 50  0001 C CNN
+F 3 "" H 2800 7000 50  0001 C CNN
+	1    2450 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SK6812MINI-E:SK6812MINI-E LED?
+U 1 1 5EA68687
+P 3050 7200
+F 0 "LED?" H 3394 7246 50  0000 L CNN
+F 1 "SK6812MINI-E" H 3394 7155 50  0000 L CNN
+F 2 "" H 3400 7000 50  0001 C CNN
+F 3 "" H 3400 7000 50  0001 C CNN
+	1    3050 7200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 7300 2150 7300
+Wire Wire Line
+	2150 7300 2150 7200
+NoConn ~ 3350 7200
+Wire Wire Line
+	1400 4000 1400 4600
+Connection ~ 1400 4600
+Wire Wire Line
+	1400 4600 1400 5200
+Connection ~ 1400 5200
+Wire Wire Line
+	1400 5200 1400 5800
+Connection ~ 1400 5800
+Wire Wire Line
+	1400 5800 1400 6400
+Connection ~ 1400 6400
+Wire Wire Line
+	1400 6900 2450 6900
+Wire Wire Line
+	1400 6400 1400 6900
+Connection ~ 1400 6900
+Wire Wire Line
+	1400 6900 1400 7000
+Connection ~ 2450 6900
+Wire Wire Line
+	2450 6900 3050 6900
+Wire Wire Line
+	800  3700 800  4000
+Connection ~ 800  4000
+Wire Wire Line
+	800  4000 800  4600
+Connection ~ 800  4600
+Wire Wire Line
+	800  4600 800  5200
+Connection ~ 800  5200
+Wire Wire Line
+	800  5200 800  5800
+Connection ~ 800  5800
+Wire Wire Line
+	800  5800 800  6400
+Connection ~ 800  6400
+Wire Wire Line
+	800  6400 800  7000
+Wire Wire Line
+	800  7000 800  7500
+Wire Wire Line
+	800  7500 2450 7500
+Connection ~ 800  7000
+Connection ~ 2450 7500
+Wire Wire Line
+	2450 7500 3050 7500
+Wire Wire Line
+	1400 4000 1400 3700
+Connection ~ 1400 4000
+Text GLabel 1100 3700 1    50   Input ~ 0
+LED
+Text GLabel 800  3700 1    50   Input ~ 0
+GND
+Text GLabel 1400 3700 1    50   Input ~ 0
+VCC
 $EndSCHEMATC

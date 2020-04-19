@@ -4,4 +4,5 @@
   (lib (name corne-classic-cache)(type Legacy)(uri C:/Users/Coumbaya/Documents/CRKBD/crkbd-master/corne-classic/pcb/corne-classic-cache.lib)(options "")(descr ""))
   (lib (name kopesh-rescue)(type Legacy)(uri ${KIPRJMOD}/kopesh-rescue.lib)(options "")(descr ""))
   (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name SK6812MINI-E)(type Legacy)(uri ${KIPRJMOD}/footprints/SK6812MINI-E.lib)(options "")(descr ""))
 )
