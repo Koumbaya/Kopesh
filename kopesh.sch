@@ -1884,7 +1884,7 @@ U 1 1 5E780C1B
 P 2800 1400
 F 0 "sw1" H 2800 1685 50  0000 C CNN
 F 1 "Reset" H 2800 1594 50  0000 C CNN
-F 2 "random-keyboard-parts:Jumper-UserFriendly" H 2800 1600 50  0000 C CNN
+F 2 "footprints:ResetSW" H 2800 1600 50  0000 C CNN
 F 3 "~" H 2800 1600 50  0001 C CNN
 	1    2800 1400
 	1    0    0    -1  
