@@ -826,9 +826,9 @@ ROW4
 Text GLabel 1100 1200 0    50   Input ~ 0
 LED
 Text GLabel 1100 1700 0    50   Input ~ 0
-SDA
-Text GLabel 1100 1600 0    50   Input ~ 0
 SCK
+Text GLabel 1100 1600 0    50   Input ~ 0
+SDA
 $Comp
 L LED:SK6812MINI D2
 U 1 1 5E7F2207
@@ -1893,8 +1893,6 @@ Wire Wire Line
 	2650 950  2650 1300
 Wire Wire Line
 	3100 1300 3100 1400
-Wire Wire Line
-	2550 1300 2650 1300
 Connection ~ 2650 1300
 Wire Wire Line
 	2650 1300 3100 1300
