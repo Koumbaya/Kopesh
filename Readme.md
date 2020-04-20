@@ -1,4 +1,9 @@
 Still a WIP, should release final V2 once I have the case.
+
+Gerbers file for the V2 are in gerbers/kopeshv2.zip
+there is also a zip for the switchplate in FR4,
+I need to add the gerbers for the backplate.
+
 PCB should be ok on V2, just waiting for the order from JLCPCB
 TODO : 
 - qmk : oled and leds
