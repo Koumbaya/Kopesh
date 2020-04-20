@@ -5,8 +5,9 @@ there is also a zip for the switchplate in FR4,
 I need to add the gerbers for the backplate.
 
 PCB should be ok on V2, just waiting for the order from JLCPCB
+
 TODO : 
-- qmk : oled and leds
+- qmk : leds
 - optionnal 3D printed case
 
 
