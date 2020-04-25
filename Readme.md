@@ -37,6 +37,7 @@ I've tried to give multiples options regarding mounting and plates so here you w
 I won't bother to explain everything, there are plenty guides onlines, so here is what you need (beside switches obviously) :
 - 47 x 1N4148 diodes (or the SMD equivalent, the PCB support both TH and SMD)
 - 1 x Pro Micro (or elite C)
+
 Optionnaly :  
 - 8 x SK6812 MINI-E LEDs (the '-E' part is important, non-E don't have the same pinout)
 - 1 x SSD1206 OLED display
