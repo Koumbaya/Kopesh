@@ -1,6 +1,6 @@
 #Kopesh
 The Kopesh is an "alice-ortho" 40% (well, almost 50%...) Keyboard with (optionals) OLED and undeglow.
-
+![without plate](https://github.com/Koumbaya/Kopesh/blob/origin/pictures/20200418_130837~(1).jpg?raw=true)
 #Cases
 I've tried to give multiples options regarding mounting and plates so here you will find :
 - a Sandwish-mount acrylic case, where the PCB is just "hanging" and the whole thing is a stack of acrylic and (optionnaly) metal for the switchplate
