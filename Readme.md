@@ -11,11 +11,11 @@ I've tried to give multiples options regarding mounting and plates so here you w
 
 ![acrylic case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopesh.png?raw=true)
 
-![acrylic case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopeshcaps.png?raw=true)
+![acrylic case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopeshcaps.PNG?raw=true)
 
 - cutouts for a more slim case (just a bottom plate, switchplate) which can be made either of FR4 materials (PCB) or acrylic.
 
-![fr4 case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopeshFR4.png?raw=true)
+![fr4 case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopeshFR4.PNG?raw=true)
 
 -TODO : a 3D printed case. It will probably be made of multiple section since the keyboard is too big for a 20cm*20cm printer.
 
