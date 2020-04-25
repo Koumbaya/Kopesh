@@ -1,9 +1,11 @@
 #Kopesh
+
 The Kopesh is an "alice-ortho" 40% (well, almost 50%...) Keyboard with (optionals) OLED and undeglow.
 
 ![without plate](https://github.com/Koumbaya/Kopesh/blob/master/pictures/20200418_130837~(1).jpg?raw=true)
 
 #Cases
+
 I've tried to give multiples options regarding mounting and plates so here you will find :
 - a Sandwish-mount acrylic case, where the PCB is just "hanging" and the whole thing is a stack of acrylic and (optionnaly) metal for the switchplate
 
@@ -18,6 +20,7 @@ I've tried to give multiples options regarding mounting and plates so here you w
 -TODO : a 3D printed case. It will probably be made of multiple section since the keyboard is too big for a 20cm*20cm printer.
 
 #Content
+
 (sorry the folders are a bit of a mess)
 - root folder contain the KiCad project
 -/case/cutouts contain everything to cut the sandwish case. 
@@ -30,6 +33,7 @@ I've tried to give multiples options regarding mounting and plates so here you w
 (there are various solidworks parts in various folders if you need to modify something)
 
 #Making it
+
 I won't bother to explain everything, there are plenty guides onlines, so here is what you need (beside switches obviously) :
 - 47 x 1N4148 diodes (or the SMD equivalent, the PCB support both TH and SMD)
 - 1 x Pro Micro (or elite C)
@@ -42,8 +46,10 @@ Optionnaly :
 ![withoutcaps](https://github.com/Koumbaya/Kopesh/blob/master/pictures/20200418_124801~(1).jpg?raw=true)
 
 #QA
+
 - Who's the little guy on the PCB : the god of keyboards Christian Clavier
 
 #TODO :
+
 - qmk : oled and leds
 - 3D printed case
