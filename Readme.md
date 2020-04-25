@@ -1,11 +1,19 @@
 #Kopesh
 The Kopesh is an "alice-ortho" 40% (well, almost 50%...) Keyboard with (optionals) OLED and undeglow.
+
 ![without plate](https://github.com/Koumbaya/Kopesh/blob/master/pictures/20200418_130837~(1).jpg?raw=true)
+
 #Cases
 I've tried to give multiples options regarding mounting and plates so here you will find :
 - a Sandwish-mount acrylic case, where the PCB is just "hanging" and the whole thing is a stack of acrylic and (optionnaly) metal for the switchplate
 
+![acrylic case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopesh.png?raw=true)
+
+![acrylic case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopeshcaps.png?raw=true)
+
 - cutouts for a more slim case (just a bottom plate, switchplate) which can be made either of FR4 materials (PCB) or acrylic.
+
+![fr4 case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopeshFR4.png?raw=true)
 
 -TODO : a 3D printed case. It will probably be made of multiple section since the keyboard is too big for a 20cm*20cm printer.
 
@@ -29,6 +37,9 @@ Optionnaly :
 - 8 x SK6812 MINI-E LEDs (the '-E' part is important, non-E don't have the same pinout)
 - 1 x SSD1206 OLED display
 - a tiny reset button
+
+
+![withoutcaps](https://github.com/Koumbaya/Kopesh/blob/master/pictures/20200418_124801~(1).jpg?raw=true)
 
 #QA
 - Who's the little guy on the PCB : the god of keyboards Christian Clavier
