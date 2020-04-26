@@ -24,10 +24,15 @@ I've tried to give multiples options regarding mounting and plates so here you w
 (sorry the folders are a bit of a mess)
 - root folder contain the KiCad project
 -/case/cutouts contain everything to cut the sandwish case. 
+
 	top1,top2 should be cut in 3mm
+
 	bottom should be cut in 3mm but you can probably make it less thick I guess. Go for frosted acrylic if you want to enjoy the underglow.
+
 	middle should be cut in 8mm, or multiplied if cut in 2 ou 3mm.
+
 	switchplate should be 1,5mm so it snaps to the switches
+
 -gerbers folder contain the gerbers .zip you need to order the PCB from a PCB maker
 -FR4 Case folder contains both the .zip to order the plates for the slim case out of PCB, or the .dxf to cut them out of acrylic
 (there are various solidworks parts in various folders if you need to modify something)
