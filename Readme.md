@@ -17,7 +17,10 @@ I've tried to give multiples options regarding mounting and plates so here you w
 
 ![fr4 case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopeshFR4.PNG?raw=true)
 
--TODO : a 3D printed case. It will probably be made of multiple section since the keyboard is too big for a 20cm*20cm printer.
+- basic fullsize 3D printed "drop in" case. I'm working on some other 3D case.
+
+![3D case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/casoled.PNG?raw=true)
+
 
 #Content
 
