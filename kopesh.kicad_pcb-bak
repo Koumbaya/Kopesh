@@ -62,10 +62,10 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x11040_7ffffffe)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
-      (usegerberadvancedattributes false)
+      (usegerberadvancedattributes true)
       (creategerberjobfile false)
       (excludeedgelayer false)
       (linewidth 0.150000)
@@ -83,11 +83,11 @@
       (plotinvisibletext false)
       (padsonsilk true)
       (subtractmaskfromsilk true)
-      (outputformat 3)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "./"))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -7568,7 +7568,7 @@
   (segment (start 324.56444 125.816959) (end 324.629549 125.704188) (width 0.25) (layer F.Cu) (net 76))
   (segment (start 322.959366 126.247039) (end 324.56444 125.816959) (width 0.25) (layer F.Cu) (net 76))
 
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5EA01A72) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5EA0CF79) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -7579,7 +7579,9 @@
     )
     (filled_polygon
       (pts
-        (xy 47.842433 209.144387) (xy 51.592885 212.954371) (xy 32.43172 212.953276) (xy 32.43104 209.143282)
+        (xy 32.954717 209.14332) (xy 32.99241 209.168506) (xy 33.289961 209.291756) (xy 33.60584 209.354588) (xy 33.927906 209.354588)
+        (xy 34.243785 209.291756) (xy 34.541336 209.168506) (xy 34.578855 209.143437) (xy 47.842431 209.144388) (xy 51.592885 212.954373)
+        (xy 32.431723 212.953276) (xy 32.431045 209.143283)
       )
     )
   )
