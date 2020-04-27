@@ -19,7 +19,7 @@ I've tried to give multiples options regarding mounting and plates so here you w
 
 - basic fullsize 3D printed "drop in" case. I'm working on some other 3D case.
 
-![3D case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/casoled.PNG?raw=true)
+![3D case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/caseoled.PNG?raw=true)
 
 
 #Content
