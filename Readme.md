@@ -21,6 +21,9 @@ I've tried to give multiples options regarding mounting and plates so here you w
 
 ![3D case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/caseoled.PNG?raw=true)
 
+- fullsize plate-mounted 3 part 3D printed case (this one may have a better feeling due to it being plate-mounted)
+
+![3D case2](https://github.com/Koumbaya/Kopesh/blob/master/pictures/3parts.PNG?raw=true)
 
 #Content
 
