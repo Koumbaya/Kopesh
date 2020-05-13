@@ -9,9 +9,9 @@ The Kopesh is an "alice-ortho" 40% (well, almost 50%...) Keyboard with (optional
 I've tried to give multiples options regarding mounting and plates so here you will find :
 - a Sandwish-mount acrylic case, where the PCB is just "hanging" and the whole thing is a stack of acrylic and (optionnaly) metal for the switchplate
 
-![acrylic case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopesh.png?raw=true)
+![acrylic case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/real1.jpg?raw=true)
 
-![acrylic case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/kopeshcaps.PNG?raw=true)
+![acrylic case](https://github.com/Koumbaya/Kopesh/blob/master/pictures/real2.jpg?raw=true)
 
 - cutouts for a more slim case (just a bottom plate, switchplate) which can be made either of FR4 materials (PCB) or acrylic.
 
