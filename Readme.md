@@ -54,6 +54,7 @@ Optionnaly :
 - 1 x SSD1206 OLED display
 - a tiny reset button
 
+Notes for the acrylic case : due to a f-up on my part, the pro-micro doesn't really fit on top of the PCB, so if you make an acrylic case (disregard that for all other type of case!) you'll have to solder the pro-micro under the PCB, in the same orientation (so USB port touching the PCB if you will : whatever the placement of the pro-micro, it should have the usb port pointing "up" towards the keycaps). One solution would be to make a cut on the metal plate and first top layer of acrylic, PM me if you want that or open an issue.
 
 ![withoutcaps](https://github.com/Koumbaya/Kopesh/blob/master/pictures/20200418_124801~(1).jpg?raw=true)
 
@@ -63,5 +64,5 @@ Optionnaly :
 
 #TODO :
 
-- qmk : oled and leds
+- qmk : leds, better OLED library
 - 3D printed case
