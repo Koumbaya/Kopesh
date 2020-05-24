@@ -23,7 +23,10 @@ I've tried to give multiples options regarding mounting and plates so here you w
 
 - fullsize plate-mounted 3 part 3D printed case (this one may have a better feeling due to it being plate-mounted)
 
+![3D case2](https://github.com/Koumbaya/Kopesh/blob/master/pictures/real3d.jpg?raw=true)
+
 ![3D case2](https://github.com/Koumbaya/Kopesh/blob/master/pictures/3parts.PNG?raw=true)
+You'll need 8 M3x16mm screws for this one.
 
 #Content
 
