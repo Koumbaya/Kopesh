@@ -26,7 +26,7 @@ I've tried to give multiples options regarding mounting and plates so here you w
 ![3D case2](https://github.com/Koumbaya/Kopesh/blob/master/pictures/real3d.jpg?raw=true)
 
 ![3D case2](https://github.com/Koumbaya/Kopesh/blob/master/pictures/3parts.PNG?raw=true)
-You'll need 8 M3x16mm screws for this one.
+You'll need 8 M2x16mm screws for this one.
 
 #Content
 
