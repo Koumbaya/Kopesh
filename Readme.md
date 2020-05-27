@@ -69,3 +69,12 @@ Notes for the acrylic case : due to a f-up on my part, the pro-micro doesn't rea
 
 - qmk : leds, better OLED library
 - 3D printed case
+
+#THANKS
+- the MKBDFR community for the help with Kicad, shoutout to @Druz for the Christian stencil : https://github.com/mkbdfr/fancy-kicad-stuff
+- Esca for running a GB for the US !
+
+#LICENSE
+All the STL/DXF/SLDPRT/ and Kicad PCB files here are licensed under the Creative Commons - Attribution - Non-Commercial - Share Alike license.
+![CC](https://github.com/Koumbaya/Kopesh/blob/master/pictures/creativecommons.png?raw=true)
+I need to make a proposer link to the correcte repositories for the Kicad Footprints.
