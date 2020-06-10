@@ -69,8 +69,9 @@ Notes for the acrylic case : due to a f-up on my part, the pro-micro doesn't rea
 
 #TODO :
 
-- qmk : leds, better OLED library
-- 3D printed case
+- qmk : better OLED library
+- add a few mm on the curout for the oled on the metal plate
+- another 3D printed case
 
 #THANKS
 - the MKBDFR community for the help with Kicad, shoutout to @Druz for the Christian stencil : https://github.com/mkbdfr/fancy-kicad-stuff
