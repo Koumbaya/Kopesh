@@ -2,6 +2,8 @@
 
 The Kopesh is an "alice-ortho" 40% (well, almost 50%...) Keyboard with (optionals) OLED and undeglow.
 
+
+![grass](https://github.com/Koumbaya/Kopesh/blob/master/pictures/grass.jpg?raw=true)
 ![without plate](https://github.com/Koumbaya/Kopesh/blob/master/pictures/20200418_130837~(1).jpg?raw=true)
 
 #Cases
