@@ -1,4 +1,4 @@
-#Kopesh
+# Kopesh
 
 The Kopesh is an "alice-ortho" 40% (well, almost 50%...) Keyboard with (optionals) OLED and undeglow.
 
@@ -6,7 +6,7 @@ The Kopesh is an "alice-ortho" 40% (well, almost 50%...) Keyboard with (optional
 ![grass](https://github.com/Koumbaya/Kopesh/blob/master/pictures/grass.jpg?raw=true)
 ![without plate](https://github.com/Koumbaya/Kopesh/blob/master/pictures/20200418_130837~(1).jpg?raw=true)
 
-#Cases
+# Cases
 
 I've tried to give multiples options regarding mounting and plates so here you will find :
 - a Sandwish-mount acrylic case, where the PCB is just "hanging" and the whole thing is a stack of acrylic and (optionnaly) metal for the switchplate
@@ -30,7 +30,7 @@ I've tried to give multiples options regarding mounting and plates so here you w
 ![3D case2](https://github.com/Koumbaya/Kopesh/blob/master/pictures/3parts.PNG?raw=true)
 You'll need 8 M2x16mm screws for this one.
 
-#Content
+# Content
 
 (sorry the folders are a bit of a mess)
 - root folder contain the KiCad project
@@ -48,7 +48,7 @@ You'll need 8 M2x16mm screws for this one.
 -FR4 Case folder contains both the .zip to order the plates for the slim case out of PCB, or the .dxf to cut them out of acrylic
 (there are various solidworks parts in various folders if you need to modify something)
 
-#Making it
+# Making it
 
 I won't bother to explain everything, there are plenty guides onlines, so here is what you need (beside switches obviously) :
 - 47 x 1N4148 diodes (or the SMD equivalent, the PCB support both TH and SMD)
@@ -63,21 +63,20 @@ Notes for the acrylic case : due to a f-up on my part, the pro-micro doesn't rea
 
 ![withoutcaps](https://github.com/Koumbaya/Kopesh/blob/master/pictures/20200418_124801~(1).jpg?raw=true)
 
-#QA
+# QA
 
 - Who's the little guy on the PCB : the god of keyboards Christian Clavier
 
-#TODO :
+# TODO :
 
 - qmk : better OLED library
-- add a few mm on the curout for the oled on the metal plate
 - another 3D printed case
 
-#THANKS
+# THANKS
 - the MKBDFR community for the help with Kicad, shoutout to @Druz for the Christian stencil : https://github.com/mkbdfr/fancy-kicad-stuff
 - Esca for running a GB for the US !
 
-#LICENSE
+# LICENSE
 All the STL/DXF/SLDPRT/ and Kicad PCB files here are licensed under the Creative Commons - Attribution - Non-Commercial - Share Alike license.
 
 ![CC](https://github.com/Koumbaya/Kopesh/blob/master/pictures/creativecommons.png?raw=true)
